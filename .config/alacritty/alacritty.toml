@@ -1,7 +1,7 @@
 general.import = ["~/.config/alacritty/themes/nord.toml"]
 
 [font]
-size = 10.0
+size = 11.0
 
 [font.bold]
 style = "Bold"
