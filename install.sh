@@ -8,7 +8,6 @@ sudo pacman -S ttf-liberation ttf-dejavu opendesktop-fonts ttf-bitstream-vera tt
 
 echo "Copying settings..."
 cp -r .config ~/
-cp -r .bash_profile ~/
 cp -r .bashrc ~/
 
 echo "Volume 100%..."
