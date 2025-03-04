@@ -2,8 +2,20 @@
 set $mod Mod4
 
 #
-gaps inner 10
-gaps outer 4
+bindsym Pause exec firefox
+bindsym $mod+Pause exec firefox --private-window
+
+#
+bindsym $mod+Esc exec poweroff
+bindsym $mod+Insert exec reboot
+
+#
+bindsym End exec udiskie-mount /dev/sdb1
+bindsym Home exec udiskie-umount /dev/sdb1 --force --detach
+
+#
+gaps inner 5
+gaps outer 0
 smart_gaps off
 
 #
