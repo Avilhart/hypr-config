@@ -37,7 +37,8 @@ foreground = ${colors.foreground}
 
 line-size = 3pt
 
-border-size = 4pt
+border-size = 5px
+border-bottom = 0px
 border-color = #00000000
 
 padding-left = 0
@@ -106,6 +107,7 @@ type = internal/fs
 interval = 25
 
 mount-0 = /
+mount-1 = /home
 
 label-mounted = %{F#F0C674}%mountpoint%%{F-} %percentage_used%%
 
@@ -171,7 +173,7 @@ label-connected = %{F#F0C674}%ifname%%{F-} %local_ip%
 type = internal/date
 interval = 1
 
-date = %H:%M
+date = %H:%M:%S
 date-alt = %Y-%m-%d %H:%M:%S
 
 label = %date%
